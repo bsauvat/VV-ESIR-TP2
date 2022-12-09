@@ -1,3 +1,33 @@
 # Code of your exercise
 
-Put here all the code created for this exercise
+<ruleset name="Custom Rules"
+xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+
+    <description>
+        My custom rules
+    </description>
+
+
+<rule name=""
+language="java"
+message=""
+class="net.sourceforge.pmd.lang.rule.XPathRule">
+<description>
+
+   </description>
+   <priority>3</priority>
+   <properties>
+      <property name="version" value="2.0"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+//IfStatement[count(ancestor::IfStatement)>=2]
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+
+</ruleset>
