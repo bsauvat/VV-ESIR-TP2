@@ -4,3 +4,10 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
+TCC (Tight Class Cohesion) permet de mesurer la cohésion entre les méthodes publiques d’une classe.
+LCC (Loose Class Cohesion)
+
+Avec des métriques que sont TCC et LCC, nous pouvons faire la différence entre des projets avec une bonne cohésion et ceux avec une mauvaise cohésion.
+Avec ces métriques, les valeurs hautes correspondent à une bonne cohésion et les valeurs basses correspondent à une mauvaise cohésion
+
+
